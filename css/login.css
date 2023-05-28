@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #1b915e;
+}
+.container {
+  position: relative;
+  width: 350px;
+  height: 400px;
+  background: #ececec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container h2 {
+  font-size: 2em;
+  color: #000000;
+  text-align: center;
+}
+.container .inputbox {
+  position: relative;
+  margin: 30px 0;
+  width: 300px;
+  border-bottom: 2px solid #fff;
+}
+.container .inputbox input {
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+}
+.container .inputbox i {
+  position: absolute;
+  right: 7px;
+  top: 15px;
+  font-size: 1.2em;
+}
+.forget {
+  margin: -15px 0 15px;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+}
+.forget label input {
+  margin-right: 3px;
+}
+.forget label a {
+  color: #fff;
+  text-decoration: none;
+}
+.forget a {
+  margin-left: 5px;
+}
+button {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  background-color: #1b915e;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 7px;
+}
+.register {
+  text-align: center;
+  margin-top: 10px;
+}
+p {
+  color: #1b915e;
+  padding: 20px;
+}

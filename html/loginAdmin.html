@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý đăng nhập Admin</title>
+    <link rel="stylesheet" href="../css/login.css" />
+  </head>
+  <body>
+    <nav>
+      <div onclick="HomePage()"></div>
+    </nav>
+    <section>
+      <div class="container">
+        <div id="boxform">
+          <form id="loginFormAdmin">
+            <h2>Login Admin</h2>
+            <div class="inputbox">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="text" placeholder="Email" id="userAdmin" />
+            </div>
+            <div class="inputbox">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Password" id="passAdmin" />
+            </div>
+            <div class="forget">
+              <label for=""><input type="checkbox" />Ghi nhớ đăng nhập </label>
+              <a href="./index.html">Go Home</a>
+            </div>
+
+            <button type="submit" class="login-btn">Đăng nhập</button>
+
+            <div class="register">
+              <label for="">Bạn chưa có tài khoản</label>
+              <a href="../html/register.html">Đăng ký</a>
+            </div>
+            <br />
+            <p id="Error"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="../js/adminlogin.js"></script>
+  </body>
+</html>
